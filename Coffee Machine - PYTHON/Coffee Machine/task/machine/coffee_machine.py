@@ -1,78 +1,78 @@
+import interface
+
+
 class CoffeeMachine:
-    INGREDIENTS_PER_CUP = {'water': 200, 'milk': 50, 'beans': 15}
-
-    def __init__(self, water: int, milk: int, beans: int):
-        self.water = water
-        self.milk = milk
-        self.beans = beans
-
-    @staticmethod
-    def calculate_cups(cups: int) -> tuple:
-        water = CoffeeMachine.INGREDIENTS_PER_CUP['water'] * cups
-        milk = CoffeeMachine.INGREDIENTS_PER_CUP['milk'] * cups
-        beans = CoffeeMachine.INGREDIENTS_PER_CUP['beans'] * cups
-        return water, milk, beans
-
-    def calculate_cup_availability(self) -> int:
-        possible_amount = min([self.water // self.INGREDIENTS_PER_CUP['water'], \
-                               self.milk // self.INGREDIENTS_PER_CUP['milk'], \
-                               self.beans // self.INGREDIENTS_PER_CUP['beans']])
-        return possible_amount
-
-
-class UserInterface:
+    DRINK_TYPES = {"espresso": {'water': 250, 'milk': 0, 'beans': 16, 'cups': 1, 'cost': 4},
+                   "latte": {'water': 350, 'milk': 75, 'beans': 20, 'cups': 1, 'cost': 7},
+                   "cappuccino": {'water': 200, 'milk': 100, 'beans': 12, 'cups': 1, 'cost': 6}
+                   }
 
     def __init__(self):
-        self.machine = None
+        """Initialize a coffee machine with the standard starting ingredient counts"""
+        self.water = 400
+        self.milk = 540
+        self.beans = 120
+        self.cups = 9
+        self.money = 550
 
-    def main(self) -> None:
-        water, milk, beans = self._get_amounts()
+    def display_state(self):
+        """Show every ingredient in the machine's current state"""
+        print()
+        print("The coffee machine has: ")
+        print(f"{self.water} of water")
+        print(f"{self.milk} of milk")
+        print(f"{self.beans} of coffee beans")
+        print(f"{self.cups} of disposable cups")
+        print(f"{self.money} of money")
+        print()
 
-        self.machine = CoffeeMachine(water, milk, beans)
+    def determine_enough_ingredients(self, drink_type: str) -> bool:
+        """Iterating through the drink type's necessary ingredients against the machine's current ingredient state.
+        Return False if any of the ingredients are below the threshold for the given drink type."""
+        return all([self.water >= self.DRINK_TYPES[drink_type]['water'],
+                    self.milk >= self.DRINK_TYPES[drink_type]['milk'],
+                    self.beans >= self.DRINK_TYPES[drink_type]['beans'],
+                    self.cups >= self.DRINK_TYPES[drink_type]['cups']])
 
-        print("Write how many cups of coffee you will need:")
-        cups_needed = self._validate_input(input())
-        self._display_cups_possible(cups_needed)
+    def get_missing_ingredients(self, drink_type: str) -> list:
+        """Return a list of the necessary drink ingredients that are larger than the machine's ingredient state."""
+        missing_ingredients = []
+        if self.water < self.DRINK_TYPES[drink_type]['water']:
+            missing_ingredients.append('water')
+        elif self.water < self.DRINK_TYPES[drink_type]['milk']:
+            missing_ingredients.append('milk')
+        elif self.beans < self.DRINK_TYPES[drink_type]['beans']:
+            missing_ingredients.append('beans')
+        elif self.cups < self.DRINK_TYPES[drink_type]['cups']:
+            missing_ingredients.append('cups')
+        return missing_ingredients
 
-    def _get_amounts(self) -> tuple:
-        print("Write how many ml of water the coffee machine has:")
-        water = self._validate_input(input())
-        print("Write how many ml of milk the coffee machine has:")
-        milk = self._validate_input(input())
-        print("Write how many grams of coffee beans the coffee machine has:")
-        beans = self._validate_input(input())
-        if None in [water, milk, beans]:
-            self._get_amounts()
-        else:
-            return water, milk, beans
+    def buy(self, drink_type: str) -> None:
+        """Remove the ingredients and add the money to the current state for the corresponding drink"""
+        self.water -= self.DRINK_TYPES[drink_type]['water']
+        self.milk -= self.DRINK_TYPES[drink_type]['milk']
+        self.beans -= self.DRINK_TYPES[drink_type]['beans']
+        self.money += self.DRINK_TYPES[drink_type]['cost']
+        self.cups -= 1
 
-    def _display_cups_possible(self, cups_needed: int) -> None:
-        possible_cups = self.machine.calculate_cup_availability()
-        if possible_cups == cups_needed:
-            print("Yes, I can make that amount of coffee")
-        elif possible_cups > cups_needed:
-            print(f"Yes, I can make that amount of coffee (and even {possible_cups - cups_needed} more than that)")
-        else:
-            print(f"No, I can make only {possible_cups} cups of coffee")
+    def fill(self, water: int, milk: int, beans: int, cups: int) -> None:
+        """Add ingredients for any ingredients above 0"""
+        if water > 0:
+            self.water += water
+        if milk > 0:
+            self.milk += milk
+        if beans > 0:
+            self.beans += beans
+        if cups > 0:
+            self.cups += cups
 
-    # @staticmethod
-    # def _display_amounts(cups_needed: list) -> None:
-    #     water, milk, beans = CoffeeMachine.calculate_cups(cups_needed)
-    #     print(f"For {cups_needed} cups of coffee you will need:")
-    #     print(f"{water} ml of water")
-    #     print(f"{milk} ml of milk")
-    #     print(f"{beans} g of coffee beans")
-
-    @staticmethod
-    def _validate_input(user_input: str) -> int:
-        try:
-            num_input = int(user_input)
-            return num_input
-        except ValueError:
-            print("Please only provide integers")
-            return None
+    def take(self) -> int:
+        """Return the amount of money in the machine and set its state to 0"""
+        temp_money = self.money
+        self.money = 0
+        return temp_money
 
 
 if __name__ == '__main__':
-    interface = UserInterface()
+    interface = interface.UserInterface()
     interface.main()

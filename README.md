@@ -3,6 +3,6 @@
 ## PYTHON
 
 ### Coffee Machine
-[1](https://github.com/PeterJSims/Hyperskill/tree/4eed89d1d19bc19bbb911d594429b2faae5282f7/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/machine)
+[1](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/stage_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/stage_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/stage_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/stage_4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/stage_5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Coffee%20Machine%20-%20PYTHON/Coffee%20Machine/task/machine)
 
 ## JAVA
