@@ -10,6 +10,7 @@
 
 ### Medium
 > #### Hangman: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_6), [7](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/step_7), [8](https://github.com/PeterJSims/Hyperskill/tree/main/Hangman%20-%20PYTHON/Hangman/task)
+> #### Rock-Paper-Scissors: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Rock-Paper-Scissors%20-%20PYTHON/Rock-Paper-Scissors/step_2), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Rock-Paper-Scissors%20-%20PYTHON/Rock-Paper-Scissors/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Rock-Paper-Scissors%20-%20PYTHON/Rock-Paper-Scissors/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Rock-Paper-Scissors%20-%20PYTHON/Rock-Paper-Scissors/step_4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Rock-Paper-Scissors%20-%20PYTHON/Rock-Paper-Scissors/task)
 
 
 
