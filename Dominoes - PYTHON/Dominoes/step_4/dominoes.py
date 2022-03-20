@@ -236,9 +236,4 @@ class Dominos:
 if __name__ == '__main__':
     game = Dominos()
     game.main()
-
-# TODO
-# validate move given stated rules
-# player will have a printed error statement, computer will not
-# computer will just loop until valid, user will be repeatedly prompted
-#
+    
