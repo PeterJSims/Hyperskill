@@ -2,7 +2,7 @@ from typing import List, Any
 from hstest.stage_test import StageTest
 from hstest.test_case import TestCase
 from hstest.check_result import CheckResult
-from hstest import *
+from hstest import WrongAnswer
 import requests, json
 
 class TestStage6(StageTest):
