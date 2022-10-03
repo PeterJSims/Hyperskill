@@ -16,6 +16,13 @@
 > #### Arithmetic Exam Application: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/task)
 > #### Dominoes: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/task/dominoes)
 
+## JAVA
+
+### Easy
+> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1/src/machine), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2/src/machine), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3/src/machine), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4/src/machine), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5/src/machine), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/Coffee%20Machine/task/src/machine)
+
+
+
 
 
 
