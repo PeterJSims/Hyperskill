@@ -19,7 +19,7 @@
 ## JAVA
 
 ### Easy
-> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1/src/machine), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2/src/machine), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3/src/machine), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4/src/machine), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5/src/machine), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/Coffee%20Machine/task/src/machine)
+> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
 
 
 
