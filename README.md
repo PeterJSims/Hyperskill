@@ -1,5 +1,13 @@
 #### A collection of Hyperskill project solutions with each stage linked. Hopefully it can lend a hand to any new learners or someone stuck on a certain stage.
 
+
+## JAVA
+
+### Easy
+> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
+> #### Simple Tic-Tac-Toe: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step5)
+
+
 ## PYTHON
 
 ### Easy
@@ -16,10 +24,6 @@
 > #### Arithmetic Exam Application: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Arithmetic%20Exam%20Application%20-%20PYTHON/Arithmetic%20Exam%20Application/task)
 > #### Dominoes: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/step_4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Python/Dominoes%20-%20PYTHON/Dominoes/task/dominoes)
 
-## JAVA
-
-### Easy
-> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
 
 
 
