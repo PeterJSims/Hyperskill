@@ -4,9 +4,13 @@
 ## JAVA
 
 ### Easy
-> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
 > #### Simple Tic-Tac-Toe: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Simple%20Tic-Tac-Toe/step5)
+> #### Cinema Room Manager: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Cinema%20Room%20Manager/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Cinema%20Room%20Manager/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Cinema%20Room%20Manager/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Cinema%20Room%20Manager/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Cinema%20Room%20Manager/step5)
 
+### Medium
+> #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
+
+<br/>
 
 ## PYTHON
 
