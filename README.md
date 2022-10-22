@@ -9,6 +9,7 @@
 
 ### Medium
 > #### Coffee Machine: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step4), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Coffee%20Machine/step6)
+> #### Amazing Numbers: [1](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step1), [2](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step2), [3](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step3), [4](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step5), [5](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step5), [6](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step6), [7](https://github.com/PeterJSims/Hyperskill/tree/main/Java/Amazing%20Numbers/step7)
 
 <br/>
 
