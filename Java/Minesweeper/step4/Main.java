@@ -19,7 +19,7 @@ public class Main {
         System.out.println("Congratulations! You found all mines!");
     }
 
-    public static void handleRounds(Field mineSweeper){
+    public static void handleRounds(Field mineSweeper) {
         String coordinatesString;
         mineSweeper.displayBoard();
 
@@ -29,7 +29,7 @@ public class Main {
             coordinatesString = scanner.nextLine();
             int[] parsedCoordinates = parseCoordinates(coordinatesString);
 
-            if(parsedCoordinates == null){
+            if (parsedCoordinates == null) {
                 System.out.println("Please pass appropriate coordinates");
                 continue;
             }
@@ -37,14 +37,13 @@ public class Main {
             int col = parsedCoordinates[0];
             int row = parsedCoordinates[1];
 
-            if(mineSweeper.isNumber(row, col)){
+            if (mineSweeper.isNumber(row, col)) {
                 System.out.println("There is a number here!");
             } else {
                 mineSweeper.markCell(row, col);
                 System.out.println();
                 mineSweeper.displayBoard();
             }
-
         }
     }
 

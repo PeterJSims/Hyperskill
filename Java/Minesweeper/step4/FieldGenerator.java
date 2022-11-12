@@ -42,9 +42,9 @@ public class FieldGenerator {
     private void placeCounts() {
         for (int i = 0; i < SIZE; i++) {
             for (int j = 0; j < SIZE; j++) {
-                if(field[i][j] != 'X'){
+                if (field[i][j] != 'X') {
                     int numberOfNearbyMines = positionCount(i, j);
-                    if(numberOfNearbyMines > 0) {
+                    if (numberOfNearbyMines > 0) {
                         field[i][j] = Character.forDigit(numberOfNearbyMines, 10);
                     }
                 }
